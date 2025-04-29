@@ -1,4 +1,4 @@
-# Eliminacion-Gaussiana - Metodos-Numericos
+# Eliminacion Gaussiana - Metodos-Numericos
 
 El problema abordado en este trabajo fue la resolución computacional de sistemas de ecuaciones lineales mediante el uso del algoritmo de Eliminación Gaussiana (EG). Para ello, construimos diversas implementaciones basadas en este método y analizamos cuales son más convenientes y/u óptimas según el contexto y las necesidades de uso. Estas son: EG sin pivoteo, con pivoteo, y para sistemas tridiagonales con y sin precómputo. 
 Se llevaron a cabo diversos experimentos que exhibieron las límitaciones de ciertos algoritmos, la diferencia de performances al aplicar optimizaciones para sistemas tridiagonales, las implicaciones de los errores numéricos en las operaciones debidos al rango de representación de los números en la computadora, y las aplicaciones en el modelado y simulación de problemas de difusión.
