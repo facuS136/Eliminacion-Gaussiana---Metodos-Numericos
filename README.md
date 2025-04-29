@@ -1,2 +1,8 @@
-# Eliminacion-Gaussiana---Metodos-Numericos
-Trabajo practico de la materia Métodos Numéricos (COMP930012), orientado a a resolución computacional de sistemas de ecuaciones lineales mediante el uso del algoritmo de Eliminación Gaussiana (EG). 
+# Eliminacion-Gaussiana - Metodos-Numericos
+
+El problema abordado en este trabajo fue la resolución computacional de sistemas de ecuaciones lineales mediante el uso del algoritmo de Eliminación Gaussiana (EG). Para ello, construimos diversas implementaciones basadas en este método y analizamos cuales son más convenientes y/u óptimas según el contexto y las necesidades de uso. Estas son: EG sin pivoteo, con pivoteo, y para sistemas tridiagonales con y sin precómputo. 
+Se llevaron a cabo diversos experimentos que exhibieron las límitaciones de ciertos algoritmos, la diferencia de performances al aplicar optimizaciones para sistemas tridiagonales, las implicaciones de los errores numéricos en las operaciones debidos al rango de representación de los números en la computadora, y las aplicaciones en el modelado y simulación de problemas de difusión.
+A modo de conclusión, llegamos a que los algoritmos de Eliminación Gaussiana para la resolución de sistemas de ecuaciones son herramientas muy poderosas para la resolución de problemas matemáticos y para la simulación de fenómenos naturales como la difusión de calor a lo largo del tiempo, y que poseen una gran flexibilidad al poder ser adaptados a sistemas especiales, aprovechando sus características para incrementar la eficiencia de la resolución.
+
+En este repositorio se adjunta la resolucion del trabajo practico, con su enunciado y su informe final adjunto.
+Para el desarrollo de los algoritmos se implementaron las matrices mediante la librería NumPy ayudándonos de la clase Array para representar vectores y matrices. Para los gráficos se uso la librería PyPlot de MatPlotLib2.
